@@ -5,7 +5,7 @@ import java.awt.event.KeyListener;
 
 public class GamePanel extends JPanel implements KeyListener {
     private int x = 50;
-    private int y = 50;
+    private int y = 200;
 
     public GamePanel() {
         addKeyListener(this);
@@ -21,10 +21,6 @@ public class GamePanel extends JPanel implements KeyListener {
             x -= 10;
         } else if (key == KeyEvent.VK_RIGHT) {
             x += 10;
-        } else if (key == KeyEvent.VK_UP) {
-            y -= 10;
-        } else if (key == KeyEvent.VK_DOWN) {
-            y += 10;
         }
         repaint();
     }
