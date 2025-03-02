@@ -19,13 +19,13 @@ public class keyboardInputs implements KeyListener {
     }
 
     @Override public void keyPressed(KeyEvent e){
-        if(e.getKeyCode() == KeyEvent.VK_W){
+        if(e.getKeyCode() == KeyEvent.VK_UP ){
             gamePanel.changeDy(-5);
-        } else if(e.getKeyCode() == KeyEvent.VK_A){
+        } else if(e.getKeyCode() == KeyEvent.VK_LEFT){
             gamePanel.changeDx(-5);
-        } else if(e.getKeyCode() == KeyEvent.VK_S){
+        } else if(e.getKeyCode() == KeyEvent.VK_DOWN){
             gamePanel.changeDy(5);
-        } else if(e.getKeyCode() == KeyEvent.VK_D){
+        } else if(e.getKeyCode() == KeyEvent.VK_RIGHT){
             gamePanel.changeDx(5);
         }
     }

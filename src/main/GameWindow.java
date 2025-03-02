@@ -11,5 +11,6 @@ public class GameWindow extends JFrame {
         frame.add(gamePanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Game");
+        frame.setLocationRelativeTo(null);
     }
 }
