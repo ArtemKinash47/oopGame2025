@@ -27,8 +27,6 @@ public class keyboardInputs implements KeyListener {
             gamePanel.changeDy(5);
         } else if(e.getKeyCode() == KeyEvent.VK_RIGHT){
             gamePanel.changeDx(5);
-        } else if(e.getKeyCode() == KeyEvent.VK_SHIFT){
-            gamePanel.changeDx(40);
         }
     }
 
